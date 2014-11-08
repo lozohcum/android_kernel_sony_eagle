@@ -66,6 +66,21 @@ scripts/mod/mk_elfconfig
 scripts/mod/modpost
 usr/gen_init_cpio
 usr/initramfs_data.cpio
+arch/arm/boot/msm8226-v1-mtp.dtb
+arch/arm/boot/msm8226-v2-1080p-mtp.dtb
+arch/arm/boot/msm8226-v2-720p-mtp.dtb
+arch/arm/boot/msm8926-1080p-mtp.dtb
+arch/arm/boot/msm8926-720p-mtp.dtb
+scripts/conmakehash
+scripts/dtc/dtc
+scripts/dtc/dtc-lexer.lex.c
+scripts/dtc/dtc-parser.tab.c
+scripts/dtc/dtc-parser.tab.h
+scripts/selinux/genheaders/genheaders
+scripts/selinux/mdp/mdp
+security/selinux/av_permissions.h
+security/selinux/flask.h
+
 
 #
 # Top-level generic files
