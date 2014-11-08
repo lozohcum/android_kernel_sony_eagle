@@ -3,10 +3,10 @@
 export ARCH=arm
 export CROSS_COMPILE=~/kernel/toolchains/arm-eabi-linaro-4.6.2/bin/arm-eabi-
 make eagle_lte_defconfig
-make menuconfig
+
 make -j5
 
-
-find . -name "*.ko" -exec cp {} ../eagle_output_kk \;
+make menuconfig
+find . -name "*.ko" -exec cp {} ../kernel_modules \;
 
 
