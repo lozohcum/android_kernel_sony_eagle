@@ -80,6 +80,9 @@ scripts/selinux/genheaders/genheaders
 scripts/selinux/mdp/mdp
 security/selinux/av_permissions.h
 security/selinux/flask.h
+drivers/tty/vt/consolemap_deftbl.c
+drivers/tty/vt/defkeymap.c
+net/wireless/regdb.c
 
 
 #

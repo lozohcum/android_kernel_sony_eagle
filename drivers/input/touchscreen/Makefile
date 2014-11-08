@@ -2,6 +2,9 @@
 # Makefile for the touchscreen drivers.
 #
 
+KBUILD_CFLAGS += -w
+KBUILD_CFLAGS += -Wno-error=uninitialized
+
 # Each configuration option enables a list of files.
 
 wm97xx-ts-y := wm97xx-core.o
