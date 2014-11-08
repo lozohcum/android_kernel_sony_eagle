@@ -83,6 +83,10 @@ security/selinux/flask.h
 drivers/tty/vt/consolemap_deftbl.c
 drivers/tty/vt/defkeymap.c
 net/wireless/regdb.c
+boot/SimpleKernelX1.0.img
+boot/dt.img
+boot/zImage
+
 
 
 #
